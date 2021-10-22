@@ -1,0 +1,51 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0%;
+    background-image: linear-gradient(red, pink);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+}
+
+#start,
+#number_of_objects,
+#status {
+    font-size: 18px;
+}
+
+.copy-right-footer {
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+#Xgame {
+    font-size: 25px;
+    color: black;
+}
+
+#Ygame {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
